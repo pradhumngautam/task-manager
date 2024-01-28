@@ -21,7 +21,7 @@ const Todo = () => {
     const { name, value } = e.target;
     setInputs({ ...Inputs, [name]: value });
   };
-  const submit = async () => {
+  const submit = (async () => {
     if (Inputs.title === "" || Inputs.body === "") {
       toast.error("Title Or Body Can't Be Empty");
     } else {
@@ -44,7 +44,7 @@ const Todo = () => {
         toast.error("Your Task Is Not Saved ! Please SignUp");
       }
     }
-  };
+  });
 
   const del = async (Cardid) => {
     if (id) {

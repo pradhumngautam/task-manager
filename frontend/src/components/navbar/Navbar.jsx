@@ -20,7 +20,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg ">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            <RiContactsBook2Fill /> todo
+            <RiContactsBook2Fill /> Task Manager
           </Link>
 
           <button
@@ -38,7 +38,7 @@ const Navbar = () => {
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item mx-2">
                 <Link className="nav-link active" aria-current="page" to="/">
-                  Home
+                  Homeee
                 </Link>
               </li>
               <li className="nav-item mx-2">
